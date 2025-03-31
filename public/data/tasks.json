@@ -1,0 +1,173 @@
+[
+  {
+    "Field Name": "views",
+    "Trigger Condition": "Views > X threshold",
+    "Recommended AI Agent": "Merchandising AI Agent",
+    "Suggested Automation Task": "Promote or reposition category on homepage or menu if highly viewed",
+    "Category": "Sales Optimisation",
+    "id": 1,
+    "status": "pending",
+    "timestamp": "2025-03-29T11:31:49.109300",
+    "steps": [
+      "Analyzed views field",
+      "Detected trigger condition: Views > X threshold",
+      "Generated solution using Merchandising AI Agent",
+      "Applied changes to staging environment"
+    ],
+    "before": "Original content",
+    "after": "Optimized content",
+    "stagingUrl": "https://staging.example.com/categories/100"
+  },
+  {
+    "Field Name": "documentCreatedDate",
+    "Trigger Condition": "New category created",
+    "Recommended AI Agent": "SEO Specialist AI Agent",
+    "Suggested Automation Task": "Auto-generate meta description, keywords, and SEO-friendly title for staging",
+    "Category": "SEO",
+    "id": 2,
+    "status": "approved",
+    "timestamp": "2025-03-23T11:31:49.109340",
+    "steps": [
+      "Analyzed documentCreatedDate field",
+      "Detected trigger condition: New category created",
+      "Generated solution using SEO Specialist AI Agent",
+      "Applied changes to staging environment"
+    ],
+    "before": "Original content",
+    "after": "Optimized content",
+    "stagingUrl": "https://staging.example.com/categories/101"
+  },
+  {
+    "Field Name": "metaDescription",
+    "Trigger Condition": "Is empty or under 70 characters",
+    "Recommended AI Agent": "SEO Specialist AI Agent",
+    "Suggested Automation Task": "Generate a compelling SEO meta description",
+    "Category": "SEO",
+    "id": 3,
+    "status": "rejected",
+    "timestamp": "2025-03-21T11:31:49.109352",
+    "steps": [
+      "Analyzed metaDescription field",
+      "Detected trigger condition: Is empty or under 70 characters",
+      "Generated solution using SEO Specialist AI Agent",
+      "Applied changes to staging environment"
+    ],
+    "before": "Empty meta description",
+    "after": "Optimized meta description with keywords for better SEO performance",
+    "stagingUrl": "https://staging.example.com/categories/102"
+  },
+  {
+    "Field Name": "searchKeywords",
+    "Trigger Condition": "Is empty",
+    "Recommended AI Agent": "SEO Specialist AI Agent",
+    "Suggested Automation Task": "Suggest keywords based on category name and product content",
+    "Category": "SEO",
+    "id": 4,
+    "status": "in_review",
+    "timestamp": "2025-03-26T11:31:49.109360",
+    "steps": [
+      "Analyzed searchKeywords field",
+      "Detected trigger condition: Is empty",
+      "Generated solution using SEO Specialist AI Agent",
+      "Applied changes to staging environment"
+    ],
+    "before": "Original content",
+    "after": "Optimized content",
+    "stagingUrl": "https://staging.example.com/categories/103"
+  },
+  {
+    "Field Name": "name",
+    "Trigger Condition": "New name added or updated",
+    "Recommended AI Agent": "Brand Consistency AI Agent",
+    "Suggested Automation Task": "Ensure naming aligns with brand tone and style guide",
+    "Category": "UX / Branding",
+    "id": 5,
+    "status": "pending",
+    "timestamp": "2025-03-21T11:31:49.109367",
+    "steps": [
+      "Analyzed name field",
+      "Detected trigger condition: New name added or updated",
+      "Generated solution using Brand Consistency AI Agent",
+      "Applied changes to staging environment"
+    ],
+    "before": "Product Category",
+    "after": "Premium Product Collection",
+    "stagingUrl": "https://staging.example.com/categories/104"
+  },
+  {
+    "Field Name": "layoutFile",
+    "Trigger Condition": "Uses non-standard layout",
+    "Recommended AI Agent": "UX/UI Designer AI Agent",
+    "Suggested Automation Task": "Suggest standardised, responsive category layout",
+    "Category": "UX/UI",
+    "id": 6,
+    "status": "approved",
+    "timestamp": "2025-03-26T11:31:49.109374",
+    "steps": [
+      "Analyzed layoutFile field",
+      "Detected trigger condition: Uses non-standard layout",
+      "Generated solution using UX/UI Designer AI Agent",
+      "Applied changes to staging environment"
+    ],
+    "before": "Original content",
+    "after": "Optimized content",
+    "stagingUrl": "https://staging.example.com/categories/105"
+  },
+  {
+    "Field Name": "imageUrl",
+    "Trigger Condition": "Is missing or not compressed",
+    "Recommended AI Agent": "Image Optimisation AI Agent",
+    "Suggested Automation Task": "Optimise or auto-generate a category banner image using Squoosh-style agent",
+    "Category": "Operational Efficiency",
+    "id": 7,
+    "status": "rejected",
+    "timestamp": "2025-03-29T11:31:49.109381",
+    "steps": [
+      "Analyzed imageUrl field",
+      "Detected trigger condition: Is missing or not compressed",
+      "Generated solution using Image Optimisation AI Agent",
+      "Applied changes to staging environment"
+    ],
+    "before": "Uncompressed image (2.4MB)",
+    "after": "Optimized image (240KB) with proper alt text",
+    "stagingUrl": "https://staging.example.com/categories/106"
+  },
+  {
+    "Field Name": "defaultProductSort",
+    "Trigger Condition": "Uses 'featured' or non-sales-based sort",
+    "Recommended AI Agent": "Conversion Optimisation AI Agent",
+    "Suggested Automation Task": "Test default sort methods (e.g. bestsellers, price low-high) for better conversion",
+    "Category": "Sales Optimisation",
+    "id": 8,
+    "status": "in_review",
+    "timestamp": "2025-03-17T11:31:49.109388",
+    "steps": [
+      "Analyzed defaultProductSort field",
+      "Detected trigger condition: Uses 'featured' or non-sales-based sort",
+      "Generated solution using Conversion Optimisation AI Agent",
+      "Applied changes to staging environment"
+    ],
+    "before": "Original content",
+    "after": "Optimized content",
+    "stagingUrl": "https://staging.example.com/categories/107"
+  },
+  {
+    "Field Name": "isVisible",
+    "Trigger Condition": "Category is visible but has no products or very low views",
+    "Recommended AI Agent": "Merchandising AI Agent",
+    "Suggested Automation Task": "Suggest to hide or merge the category for better navigation",
+    "Category": "Operational Efficiency",
+    "id": 9,
+    "status": "pending",
+    "timestamp": "2025-03-26T11:31:49.109395",
+    "steps": [
+      "Analyzed isVisible field",
+      "Detected trigger condition: Category is visible but has no products or very low views",
+      "Generated solution using Merchandising AI Agent",
+      "Applied changes to staging environment"
+    ],
+    "before": "Original content",
+    "after": "Optimized content",
+    "stagingUrl": "https://staging.example.com/categories/108"
+  }
+]

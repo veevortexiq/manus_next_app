@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+/* Custom styles for improved readability */
+.app-header {
+  background-color: #1a365d; /* Darker blue background */
+  color: white; /* White text for better contrast */
+  padding: 1.5rem 0;
+}
+
+.app-header h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.app-header p {
+  color: #e2e8f0; /* Light gray for subtitle */
+  font-size: 1.1rem;
+}
+
+/* Dropdown and input field styles */
+select, input {
+  background-color: white !important;
+  color: #1a202c !important; /* Dark text for contrast */
+  border: 1px solid #cbd5e0 !important;
+}
+
+/* Status badges with improved contrast */
+.status-badge-pending {
+  background-color: #3182ce !important; /* Brighter blue */
+  color: white !important;
+}
+
+.status-badge-approved {
+  background-color: #38a169 !important; /* Brighter green */
+  color: white !important;
+}
+
+.status-badge-rejected {
+  background-color: #e53e3e !important; /* Brighter red */
+  color: white !important;
+}
+
+.status-badge-in-review {
+  background-color: #dd6b20 !important; /* Brighter orange */
+  color: white !important;
+}
+
+/* Task card styles */
+.task-card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left-width: 4px;
+}
+
+.task-card-selected {
+  background-color: #ebf8ff; /* Light blue background for selected */
+  box-shadow: 0 0 0 2px #4299e1;
+}
+
+/* Filter section */
+.filter-section {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.filter-section label {
+  color: #4a5568; /* Darker gray for labels */
+  font-weight: 500;
+}
+
+/* Stats cards */
+.stats-card {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.stats-card p:first-child {
+  color: #4a5568;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.stats-card p:last-child {
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+/* Button styles with better contrast */
+.btn-primary {
+  background-color: #3182ce !important;
+  color: white !important;
+}
+
+.btn-success {
+  background-color: #38a169 !important;
+  color: white !important;
+}
+
+.btn-danger {
+  background-color: #e53e3e !important;
+  color: white !important;
+}
+
+.btn-secondary {
+  background-color: #718096 !important;
+  color: white !important;
+}
+
+/* Dropdown options */
+option {
+  background-color: white;
+  color: #1a202c;
+  padding: 0.5rem;
+}
